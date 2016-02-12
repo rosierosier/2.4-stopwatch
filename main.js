@@ -1,22 +1,6 @@
 (function(){
   'use strict';
 
-  /*var emptyValue;
-  emptyValue = 10;
-  console.log(emptyValue);
-
-  var myString = 'awesome';
-  console.log(myString);
-
-  var sports = ['baseball', 'soccer'];
-  console.log(sports);
-  console.log(sports.length);
-
-  sports.push('football', 'swimming');
-
-  console.log(sports);
-  console.log(sports.length);*/
-
   var myStartButton;
   console.log(document);
   myStartButton = document.querySelector('.start');
@@ -25,7 +9,7 @@
   function startButtonHandler(event) {
     console.log('I was clicked!');
     var startButton = document.querySelector('.start');
-    startButton.style.backgroundColor = 'red';
+    // startButton.style.backgroundColor = 'red';
     startButton.textContent = 'Stop';
     //alert(startButton.textContent);
 
